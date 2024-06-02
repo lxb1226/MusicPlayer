@@ -39,7 +39,7 @@
     return @"location";
 }
 
-+ (NSImage *)artworkKey {
+- (NSImage *)artwork {
     return [self artworkGetter];
 }
 
