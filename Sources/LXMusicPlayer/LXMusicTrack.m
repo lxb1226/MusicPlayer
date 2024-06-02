@@ -39,6 +39,10 @@
     return @"location";
 }
 
++ (NSImage *)artworkKey {
+    return [self artworkGetter];
+}
+
 - (NSImage *)artworkGetter {
     return ((MusicTrack *)self.originalTrack).artworks.firstObject.data;
 }
